@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FAF8F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TECH MATRIX"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0057FF"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ჩვენს შესახებ"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ტექ მატრიქსი არის თქვენი საიმედო პარტნიორი ციფრულ სამყაროში. ჩვენ გთავაზობთ უმაღლესი ხარისხის კომპიუტერულ ტექნიკას, პრემიუმ კლასის აქსესუარებსა და სრულყოფილ სამუშაო სივრცეებს (Workspace) თქვენი პროდუქტიულობისთვის. ჩვენი მიზანია, ტექნოლოგიები ყველასთვის ხელმისაწვდომი და მარტივი გავხადოთ."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ხშირად დასმული კითხვები"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutFaq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tvQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="❓ რამდენ ხანში მივა შეკვეთა?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/tvAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="თბილისის მასშტაბით მიწოდება ხდება 24 საათში, ხოლო რეგიონებში 2-3 სამუშაო დღეში."
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" /> </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutFaq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tvQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="❓ მოქმედებს თუ არა ოფიციალური გარანტია?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/tvAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="დიახ, ტექ მატრიქსში შეძენილ ყველა ძირითად კომპიუტერულ ტექნიკაზე ვრცელდება 1-დან 3 წლამდე ოფიციალური გარანტია."
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

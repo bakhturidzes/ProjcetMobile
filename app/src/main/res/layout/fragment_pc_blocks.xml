@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #101"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer1"
+                app:layout_constraintTop_toTopOf="@id/ivComputer1" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="1900 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName1"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName1" />
+
+            <Button
+                android:id="@+id/btnAdd1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #102"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer2"
+                app:layout_constraintTop_toTopOf="@id/ivComputer2" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="2100 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName2"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName2" />
+
+            <Button
+                android:id="@+id/btnAdd2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #103"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer3"
+                app:layout_constraintTop_toTopOf="@id/ivComputer3" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="2500 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName3"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName3" />
+
+            <Button
+                android:id="@+id/btnAdd3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer4"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #104"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer4"
+                app:layout_constraintTop_toTopOf="@id/ivComputer4" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="2800 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName4"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName4" />
+
+            <Button
+                android:id="@+id/btnAdd4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer5"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #105"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer5"
+                app:layout_constraintTop_toTopOf="@id/ivComputer5" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="3200 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName5"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName5" />
+
+            <Button
+                android:id="@+id/btnAdd5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivComputer6"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #106"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer6"
+                app:layout_constraintTop_toTopOf="@id/ivComputer6" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="4100 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName6"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName6" />
+
+            <Button
+                android:id="@+id/btnAdd6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivComputer7"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/pc_7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvComputerName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="PC #107"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivComputer7"
+                app:layout_constraintTop_toTopOf="@id/ivComputer7" />
+
+            <TextView
+                android:id="@+id/tvComputerPrice7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="5500 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvComputerName7"
+                app:layout_constraintTop_toBottomOf="@id/tvComputerName7" />
+
+            <Button
+                android:id="@+id/btnAdd7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivComputer7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivComputer7" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

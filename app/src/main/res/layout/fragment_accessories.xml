@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivKeyboard1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/keyboard_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvKeyboardName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Keyboard #1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivKeyboard1"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard1" />
+
+            <TextView
+                android:id="@+id/tvKeyboardPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="120 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvKeyboardName1"
+                app:layout_constraintTop_toBottomOf="@id/tvKeyboardName1" />
+
+            <Button
+                android:id="@+id/btnAddKeyboard1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivKeyboard1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivKeyboard2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/keyboard_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvKeyboardName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Keyboard #2"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivKeyboard2"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard2" />
+
+            <TextView
+                android:id="@+id/tvKeyboardPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="180 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvKeyboardName2"
+                app:layout_constraintTop_toBottomOf="@id/tvKeyboardName2" />
+
+            <Button
+                android:id="@+id/btnAddKeyboard2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivKeyboard2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivKeyboard3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/keyboard_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvKeyboardName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Keyboard #3"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivKeyboard3"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard3" />
+
+            <TextView
+                android:id="@+id/tvKeyboardPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="290 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvKeyboardName3"
+                app:layout_constraintTop_toBottomOf="@id/tvKeyboardName3" />
+
+            <Button
+                android:id="@+id/btnAddKeyboard3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivKeyboard3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivKeyboard3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivMouse1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/mouse_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvMouseName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Mouse #1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivMouse1"
+                app:layout_constraintTop_toTopOf="@id/ivMouse1" />
+
+            <TextView
+                android:id="@+id/tvMousePrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="60 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvMouseName1"
+                app:layout_constraintTop_toBottomOf="@id/tvMouseName1" />
+
+            <Button
+                android:id="@+id/btnAddMouse1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivMouse1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivMouse1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivMouse2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/mouse_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvMouseName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Mouse #2"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivMouse2"
+                app:layout_constraintTop_toTopOf="@id/ivMouse2" />
+
+            <TextView
+                android:id="@+id/tvMousePrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="95 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvMouseName2"
+                app:layout_constraintTop_toBottomOf="@id/tvMouseName2" />
+
+            <Button
+                android:id="@+id/btnAddMouse2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivMouse2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivMouse2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivMouse3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/mouse_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvMouseName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Mouse #3"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivMouse3"
+                app:layout_constraintTop_toTopOf="@id/ivMouse3" />
+
+            <TextView
+                android:id="@+id/tvMousePrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="150 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvMouseName3"
+                app:layout_constraintTop_toBottomOf="@id/tvMouseName3" />
+
+            <Button
+                android:id="@+id/btnAddMouse3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivMouse3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivMouse3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivHeadset1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/headset_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvHeadsetName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Headset #1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivHeadset1"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset1" />
+
+            <TextView
+                android:id="@+id/tvHeadsetPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="140 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvHeadsetName1"
+                app:layout_constraintTop_toBottomOf="@id/tvHeadsetName1" />
+
+            <Button
+                android:id="@+id/btnAddHeadset1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivHeadset1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp">
+
+            <ImageView
+                android:id="@+id/ivHeadset2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/headset_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvHeadsetName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Headset #2"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivHeadset2"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset2" />
+
+            <TextView
+                android:id="@+id/tvHeadsetPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="220 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvHeadsetName2"
+                app:layout_constraintTop_toBottomOf="@id/tvHeadsetName2" />
+
+            <Button
+                android:id="@+id/btnAddHeadset2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivHeadset2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/ivHeadset3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/headset_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvHeadsetName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Headset #3"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@id/ivHeadset3"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset3" />
+
+            <TextView
+                android:id="@+id/tvHeadsetPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="380 GEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#0057FF"
+                app:layout_constraintStart_toStartOf="@id/tvHeadsetName3"
+                app:layout_constraintTop_toBottomOf="@id/tvHeadsetName3" />
+
+            <Button
+                android:id="@+id/btnAddHeadset3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="+"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/ivHeadset3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/ivHeadset3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

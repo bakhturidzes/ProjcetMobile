@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="TECH MATRIX"
+        android:textColor="#1A1A1A"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomButtonsContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/companyName" />
+
+    <LinearLayout
+        android:id="@+id/bottomButtonsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:id="@+id/imgHome"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_home"
+                app:tint="#0057FF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_profile"
+                app:tint="#757575"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAbout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgAbout"
+                android:layout_width="26dp"
+                android:layout_height="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_about"
+                app:tint="#757575" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+            <ImageView
+                android:id="@+id/imgSettings"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_settings"
+                app:tint="#757575"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/btnCart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:cardBackgroundColor="#0057FF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="12dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomButtonsContainer"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_cart"
+            android:scaleType="fitCenter"
+            app:tint="#FFFFFF"
+            app:tintMode="multiply" /> </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

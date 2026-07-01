@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8F9FA">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <include android:id="@+id/itemTable1" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <include android:id="@+id/itemTable2" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <include android:id="@+id/itemTable3" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemTable1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <include android:id="@+id/itemTable4" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemTable2"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <include android:id="@+id/itemChair1" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemTable3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <include android:id="@+id/itemChair2" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemTable4"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <include android:id="@+id/itemChair3" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemChair1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <include android:id="@+id/itemChair4" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemChair2"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <include android:id="@+id/itemHanger1" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemChair3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"/>
+
+        <include android:id="@+id/itemHanger2" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemChair4"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <include android:id="@+id/itemHanger3" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintTop_toBottomOf="@id/itemHanger1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/guidelineCenter"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <include android:id="@+id/itemHanger4" layout="@layout/item_workspace_card"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintTop_toBottomOf="@id/itemHanger2"
+            app:layout_constraintStart_toEndOf="@id/guidelineCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
